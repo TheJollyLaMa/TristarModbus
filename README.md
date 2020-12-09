@@ -1,7 +1,7 @@
 <div>
   <img align="left" height="100px" src="morningstar.png" >
-  <div align="center" ><<----- Tristar Modbus <<--python_bridge->> Arduino Yun----->></div>
   <img align="right" height="75px" src="arduinoyun.jpg">
+  <div align="center" ><<----- Tristar Modbus <<--python_bridge->> Arduino Yun----->></div>
 </div>
 <hr/>
 <div>
