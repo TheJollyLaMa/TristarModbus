@@ -3,6 +3,8 @@
   <img align="right" height="75px" src="arduinoyun.jpg">
   <div align="center" ><<----- Tristar Modbus <<--python_bridge->> Arduino Yun----->></div>
 </div>
+<br/>
+<br/>
 <hr/>
 <div>
   <p>Modbus Comms with Morningstar's Tristar MPPT-60 bridged to Arduino Yun in python</p>
