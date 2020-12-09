@@ -11,4 +11,4 @@
   <p align="center">Modbus Comms with Morningstar's Tristar MPPT-60 bridged to Arduino Yun in python</p>
 </div>
 <hr/>
-<p align="center">Soo many thanks to whoever I picked this up from - just to many spources to name and still get shit done.  Many thanks to your hard work, if you recognize it.</p>
+<p align="center">Soo many thanks to whoever I picked this up from - just too many sources to name and still get shit done.  Many thanks to your hard work, if you recognize it.</p>
