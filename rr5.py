@@ -16,7 +16,7 @@ log.setLevel(logging.DEBUG)
 UNIT = 0x1
 
 def get_data():
-    client = ModbusTcpClient('192.168.0.244', 502)
+    client = ModbusTcpClient('192.168.0.111', 502)
     client.connect()
     rr = client.read_holding_registers(0, 80, unit=1)
     client.close()
@@ -84,7 +84,7 @@ battery_voltage = Register_Update.update['battery_sense_voltage']
 
 arduino_bridge().put('battery_voltage', str(battery_voltage))
 
-path = '/mnt/sda1/arduino/www/jonesGreenHouse/data/'+ total_days + '/'
+path = '/mnt/sda1/arduino/www/sketchName/data/'+ total_days + '/'
 data_file = path + 'powerGenerationData.json'
 
 if os.path.exists(data_file):
